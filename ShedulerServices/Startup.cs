@@ -44,7 +44,6 @@ namespace ShedulerServices
                     .ForJob(jobKey) // link to the HelloWorldJob
                     .WithIdentity("TestJob-trigger") // give the trigger a unique name
                     .WithCronSchedule("0/5 * * * * ?")); // run every 5 seconds
-
             });
 
             // ASP.NET Core hosting
