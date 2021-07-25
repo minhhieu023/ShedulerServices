@@ -1,0 +1,26 @@
+﻿Action,Target,Value
+open,https://online.hcmute.edu.vn/,
+name,TC1: enter wrong username password,
+click,"//*[@id=""ctl00_lbtDangnhap""]",
+enter,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_txtUserName""]",123
+enter,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_txtPassword""]",123
+click,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_btLogin""]",
+result,alert,Lỗi đăng nhập: Tên đăng nhập và mật khẩu không đúng!
+name,TC2: enter right username password,
+click,"//*[@id=""ctl00_lbtDangnhap""]",
+enter,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_txtUserName""]df",hello world
+enter,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_txtPassword""]",1111
+click,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_btLogin""]",
+result,alert,Lỗi đăng nhập: Tên đăng nhập và mật khẩu không đúng!
+name,TC3: enter max username password,
+click,"//*[@id=""ctl00_lbtDangnhap""]",
+enter,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_txtUserName""]",{{DATE|1990|2021}}
+enter,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_txtPassword""]",{{NUMBER|2}}{{STRING|4}}
+click,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_btLogin""]",
+result,alert,Lỗi đăng nhập: Tên đăng nhập và mật khẩu không đúng!
+name,TC4: enter special character username password,
+click,"//*[@id=""ctl00_lbtDangnhap""]",
+enter,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_txtUserName""]",{{NUMBERRANGE|2|5}}
+enter,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_txtPassword""]",{{DATETIME|1990-01-01|1991-01-20}}
+click,"//*[@id=""ctl00_ContentPlaceHolder1_ctl00_ctl00_btLogin""]",
+result,alert,Lỗi đăng nhập: Tên đăng nhập và mật khẩu không đúng?

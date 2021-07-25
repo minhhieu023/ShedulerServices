@@ -1,0 +1,25 @@
+17:51:22.097 [main] INFO  Kltn2021.Passed.MustPass - New driver instantiated
+17:54:15.983 [main] INFO  Kltn2021.Passed.MustPass - New driver instantiated
+17:54:28.054 [main] INFO  Kltn2021.Passed.MustPass - Web application launched
+17:54:28.057 [main] INFO  Kltn2021.Passed.MustPass - TC1: enter wrong username password
+17:54:29.464 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_lbtDangnhap"]
+17:54:30.646 [main] INFO  Kltn2021.Passed.MustPass - 123
+17:54:31.813 [main] INFO  Kltn2021.Passed.MustPass - 123
+17:54:33.066 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_ContentPlaceHolder1_ctl00_ctl00_btLogin"]
+17:54:33.301 [main] INFO  Kltn2021.Passed.MustPass - TC2: enter right username password
+17:54:34.549 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_lbtDangnhap"]
+17:54:34.606 [main] ERROR Kltn2021.Passed.MustPass - Location xpath [//*[@id="ctl00_ContentPlaceHolder1_ctl00_ctl00_txtUserName"]df] can not find!
+17:54:34.607 [main] INFO  Kltn2021.Passed.MustPass - TC3: enter max username password
+17:54:35.849 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_lbtDangnhap"]
+17:54:37.044 [main] INFO  Kltn2021.Passed.MustPass - 1996-07-17
+17:54:38.234 [main] INFO  Kltn2021.Passed.MustPass - 22fDYW
+17:54:39.504 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_ContentPlaceHolder1_ctl00_ctl00_btLogin"]
+17:54:39.702 [main] INFO  Kltn2021.Passed.MustPass - TC4: enter special character username password
+17:54:40.811 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_lbtDangnhap"]
+17:54:42.008 [main] INFO  Kltn2021.Passed.MustPass - 4
+17:54:43.173 [main] INFO  Kltn2021.Passed.MustPass - 1990.11.13 02:58:33
+17:54:44.492 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_ContentPlaceHolder1_ctl00_ctl00_btLogin"]
+17:54:44.750 [main] INFO  Kltn2021.Passed.MustPass - Browser closed
+17:54:44.750 [main] INFO  Kltn2021.Passed.MustPass - --------------------------------------------------------------------------------------------------------------
+17:54:44.750 [main] INFO  Kltn2021.Passed.MustPass - Total testcase: 4 |   Pass: 0 |   Fail: 4
+17:54:44.750 [main] INFO  Kltn2021.Passed.MustPass - --------------------------------------------------------------------------------------------------------------

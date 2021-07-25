@@ -1,0 +1,24 @@
+19:24:21.034 [main] INFO  Kltn2021.Passed.MustPass - New driver instantiated
+19:24:28.764 [main] INFO  Kltn2021.Passed.MustPass - Web application launched
+19:24:28.769 [main] INFO  Kltn2021.Passed.MustPass - TC1: enter wrong username password
+19:24:30.281 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_lbtDangnhap"]
+19:24:31.498 [main] INFO  Kltn2021.Passed.MustPass - 123
+19:24:32.720 [main] INFO  Kltn2021.Passed.MustPass - 123
+19:24:34.019 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_ContentPlaceHolder1_ctl00_ctl00_btLogin"]
+19:24:34.339 [main] INFO  Kltn2021.Passed.MustPass - TC2: enter right username password
+19:24:35.724 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_lbtDangnhap"]
+19:24:35.789 [main] ERROR Kltn2021.Passed.MustPass - Location xpath [//*[@id="ctl00_ContentPlaceHolder1_ctl00_ctl00_txtUserName"]df] can not find!
+19:24:35.790 [main] INFO  Kltn2021.Passed.MustPass - TC3: enter max username password
+19:24:36.919 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_lbtDangnhap"]
+19:24:38.161 [main] INFO  Kltn2021.Passed.MustPass - 2020-01-05
+19:24:39.382 [main] INFO  Kltn2021.Passed.MustPass - 18c9JA
+19:24:40.694 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_ContentPlaceHolder1_ctl00_ctl00_btLogin"]
+19:24:40.909 [main] INFO  Kltn2021.Passed.MustPass - TC4: enter special character username password
+19:24:42.193 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_lbtDangnhap"]
+19:24:43.382 [main] INFO  Kltn2021.Passed.MustPass - 4
+19:24:44.598 [main] INFO  Kltn2021.Passed.MustPass - 1990.04.22 21:46:37
+19:24:45.893 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="ctl00_ContentPlaceHolder1_ctl00_ctl00_btLogin"]
+19:24:46.143 [main] INFO  Kltn2021.Passed.MustPass - Browser closed
+19:24:46.143 [main] INFO  Kltn2021.Passed.MustPass - --------------------------------------------------------------------------------------------------------------
+19:24:46.143 [main] INFO  Kltn2021.Passed.MustPass - Total testcase: 4 |   Pass: 0 |   Fail: 4
+19:24:46.143 [main] INFO  Kltn2021.Passed.MustPass - --------------------------------------------------------------------------------------------------------------

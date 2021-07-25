@@ -1,0 +1,6 @@
+18:34:50.084 [main] INFO  Kltn2021.Passed.MustPass - New driver instantiated
+18:35:07.836 [main] INFO  Kltn2021.Passed.MustPass - Web application launched
+18:35:07.842 [main] INFO  Kltn2021.Passed.MustPass - TC1: enter wrong username password
+18:35:09.151 [main] INFO  Kltn2021.Passed.MustPass - linkscope
+18:35:10.427 [main] INFO  Kltn2021.Passed.MustPass - primas
+18:35:19.628 [main] INFO  Kltn2021.Passed.MustPass - //*[@id="loginForm"]/form/input

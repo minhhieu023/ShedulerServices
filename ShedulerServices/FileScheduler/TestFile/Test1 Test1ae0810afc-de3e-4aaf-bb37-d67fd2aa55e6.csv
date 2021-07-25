@@ -1,0 +1,12 @@
+Action,Target,Value
+open,https://labvn54.primas.net:9443/LinkScopeWeb/,
+name,TC1: enter wrong username password,
+enter,"//*[@id=""UserName""]",linkscope
+enter,"//*[@id=""Password""]",primas
+click,"//*[@id=""loginForm""]/form/input",
+click,"//*[@id=""sidebarnav""]/li[5]/a/span",
+click,"//*[@id=""sidebarnav""]/li[5]/ul/li[1]/a",
+click,"//*[@id=""sidebarnav""]/li[5]/ul/li[1]/ul/li[2]/a",
+click,"//*[@id=""main-wrapper""]/div[3]/div[2]/div[2]/div[2]/div/div[1]/button/label",
+enter,"//*[@id=""CompanyName""]",primascompany
+click,/html/body/div[9]/div[2]/div/div[4]/a[1],
