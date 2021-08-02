@@ -37,8 +37,9 @@ namespace ShedulerServices
              Console.WriteLine(DateTime.Now);
             foreach(var job in jobList)
             {
-                if (DateTime.Compare(DateTime.Parse(job.ScheduleDateTime.ToString("dd/mm/yyyy HH:mm"))
-                    ,DateTime.Parse( DateTime.Now.ToString("dd/mm/yyyy HH:mm"))) <= 0
+                if (job.ScheduleDateTime.ToString("dd/mm/yyyy") ==
+                    DateTime.Now.ToString("dd/mm/yyyy") && job.ScheduleDateTime.Hour <= DateTime.Now.Hour 
+                    && job.ScheduleDateTime.Minute <= DateTime.Now.Minute
                     && job.LastRun.ToString("dd/mm/yyyy") != DateTime.Now.ToString("dd/mm/yyyy"))
                 {
                     var guid = Guid.NewGuid();
